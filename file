@@ -1,0 +1,18 @@
+ class Super {
+    static int var=78; //static variable
+    
+  protected static void  mec(){  //static method 
+         System.out.println("1st static method");
+    }
+}
+
+
+
+class  ex extends Super{
+   public static void main(String[] args) {
+mec();
+       System.out.println(var);
+   }
+}
+
+
