@@ -1,0 +1,11 @@
+ class Super {
+    static int var=78; //static variable
+    
+  protected static void  mec(){  //static method 
+         System.out.println("1st static method");
+    }
+
+    public static void main(String[] args) {
+       Super.mec();
+    }
+}
